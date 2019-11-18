@@ -1,0 +1,10 @@
+server:
+  port: 9000
+# spring:
+#   session:
+#     store-type: REDIS  
+logging:
+  level:
+    org.springframework:
+      security: DEBUG
+      session: TRACE    
